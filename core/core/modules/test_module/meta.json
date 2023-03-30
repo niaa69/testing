@@ -1,0 +1,25 @@
+{
+    "label": "Test Module",
+    "menu": "Personal Information",
+    "order": "1",
+    "icon": "fa-desktop",
+    "user_levels": [
+        "Admin",
+        "Manager",
+        "Employee"
+    ],
+    "permissions": {
+        "Manager": {
+            "Add Salary": "No",
+            "Edit Salary": "No",
+            "Delete Salary": "No"
+        },
+        "Employee": {
+            "Add Salary": "Yes",
+            "Edit Salary": "Yes",
+            "Delete Salary": "Yes"
+        }
+    },
+    "model_namespace": "\\TestModule\\Common\\Model",
+    "manager": "\\TestModule\\User\\Api\\SalaryModulesManager"
+}
